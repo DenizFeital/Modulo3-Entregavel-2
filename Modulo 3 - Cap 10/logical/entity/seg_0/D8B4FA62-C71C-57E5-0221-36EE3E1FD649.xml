@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D8B4FA62-C71C-57E5-0221-36EE3E1FD649" name="TB_SERIE_HISTORICA_GRAOS_CAP10">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 10:54:38 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_area_plantada_mil_ha" id="AB61A747-29B5-0E96-3B3B-5B5E3799C66E">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 10:56:55 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_ano_agricola" id="A6B83D45-100B-8A81-9AB4-1815EB17FD0C">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 10:58:38 UTC</createdTime>
+<generatorID>53B19FFD-7EF9-B753-B3BF-DACC76E2FBED</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<referedAttribute>77E1DD2A-09B2-852B-50FE-829E9816EF94</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sigla_UF" id="915DC86F-B56C-F782-72D1-C3F88A0EBB87">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 10:58:33 UTC</createdTime>
+<generatorID>749EDB47-7B25-0EBA-A131-36F0F82D5236</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<referedAttribute>C9CD0267-4245-8143-DA1D-80D29FB45B17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="8789F133-9D3E-657D-5FE7-E1DEC75A6067">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 10:58:21 UTC</createdTime>
+<generatorID>0E711BFB-9E1A-E6ED-37BE-078182DF1A24</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<referedAttribute>DA549842-A4C7-D1C3-1752-A85358476EE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_producao_mil_t" id="060787CA-FF84-CA81-2F3E-3D85C322DE36">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 10:55:55 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_produtividade_mil_ha_mil_t" id="90BB577A-A595-AF0F-D982-4B3380A2B657">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 10:54:57 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C60E83A-C81A-64C0-510F-7F729B101637" name="TB_SERIE_HISTORICA_GRAOS PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 10:55:13 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AB61A747-29B5-0E96-3B3B-5B5E3799C66E</attributeRef>
+<attributeRef>8789F133-9D3E-657D-5FE7-E1DEC75A6067</attributeRef>
+<attributeRef>915DC86F-B56C-F782-72D1-C3F88A0EBB87</attributeRef>
+<attributeRef>A6B83D45-100B-8A81-9AB4-1815EB17FD0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

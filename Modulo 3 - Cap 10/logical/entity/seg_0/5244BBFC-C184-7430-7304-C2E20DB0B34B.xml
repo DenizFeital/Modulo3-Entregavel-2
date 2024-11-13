@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5244BBFC-C184-7430-7304-C2E20DB0B34B" name="Original_TB_CAP10">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:35:14 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ano_agricola" id="E9BA145F-C463-58F0-D1BE-FD73C0A74BF0">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:35:22 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dsc_safra_previsao" id="0A5A27BD-5FA8-9E7E-42C2-8013BA61F78A">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:35:38 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UF" id="40AF1B13-E769-1852-59FF-53DFB89F5F77">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:35:52 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produto" id="197DF6FD-2951-C699-C617-5403B6DCF7B1">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:36:06 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produto" id="974C2CE1-D429-9E1D-63DD-32B702DBBF49">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:36:19 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area_plantada_mil_ha" id="C1B4BFB4-9FF6-20F1-C173-A59B4457C598">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:36:42 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="producao_mil_t" id="65E7B98C-C2C2-6C7B-6538-01B9FB0D1C02">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:37:01 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="produtividade_mil_ha_mil_t" id="34399504-12C2-9559-C5D2-C540794D8C03">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-08 19:37:13 UTC</createdTime>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<engineerTo>
+<item key="5AE55502-3184-B7E1-D70F-25BBAA3FA9DF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

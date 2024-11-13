@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA81CACE-E445-A7B7-2DE8-FCCE7604C7F9" name="Original_TB_CAP10">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>5244BBFC-C184-7430-7304-C2E20DB0B34B</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<ordsAlias>origianl_tb_serie_historica_graos</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ano_agricola" id="E108369A-CAC0-0AB5-84DC-2687532D2860">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>E9BA145F-C463-58F0-D1BE-FD73C0A74BF0</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dsc_safra_previsao" id="9B9632C1-41C9-10DA-55FD-2DA306C481AE">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>0A5A27BD-5FA8-9E7E-42C2-8013BA61F78A</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="6DD7161E-9C8E-4406-4C3C-E5437CC110FF">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>40AF1B13-E769-1852-59FF-53DFB89F5F77</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produto" id="07DFD031-DD7E-8368-DC22-09457B76789A">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>197DF6FD-2951-C699-C617-5403B6DCF7B1</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produto" id="5CCFE931-373C-FDCD-84C4-19B1C61C83FC">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>974C2CE1-D429-9E1D-63DD-32B702DBBF49</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area_plantada_mil_ha" id="17BDD34D-C05C-3FCD-2A57-79DA4EDD8AF0">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>C1B4BFB4-9FF6-20F1-C173-A59B4457C598</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="producao_mil_t" id="F5D541D2-E724-DDBC-35DE-7EE64002FC47">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>65E7B98C-C2C2-6C7B-6538-01B9FB0D1C02</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produtividade_mil_ha_mil_t" id="BA50A034-FB54-F317-39C8-879E80A7B691">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>34399504-12C2-9559-C5D2-C540794D8C03</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

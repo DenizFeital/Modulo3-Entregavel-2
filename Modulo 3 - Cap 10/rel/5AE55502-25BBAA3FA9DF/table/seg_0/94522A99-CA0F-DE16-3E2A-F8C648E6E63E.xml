@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94522A99-CA0F-DE16-3E2A-F8C648E6E63E" name="TB_UF_CAP10">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>056E3339-7039-4579-ADC9-88957836BD43</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sigla_UF" id="16FFBFA9-300B-5BFD-D4A2-435EC1A3883C">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>C9CD0267-4245-8143-DA1D-80D29FB45B17</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_uf" id="701FCD21-5D1A-87A9-0F98-914678798BB3">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>10EE992E-9D1B-2224-B100-893244D9068E</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A000F37C-FDB6-83DC-358D-C8A2C4291896" name="TB_UF_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>348DD4E6-D2A7-F888-6878-0098AE4BCBCE</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16FFBFA9-300B-5BFD-D4A2-435EC1A3883C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

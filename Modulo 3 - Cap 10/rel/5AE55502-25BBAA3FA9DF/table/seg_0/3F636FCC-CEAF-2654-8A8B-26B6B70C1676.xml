@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F636FCC-CEAF-2654-8A8B-26B6B70C1676" name="TB_ANO_AGRICOLA_CAP10">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>A86DA6DA-FD81-18E7-64CC-CD20290D9521</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dt_ano_agricola" id="0879F55F-FFA8-742A-667B-D0755E209DF2">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>77E1DD2A-09B2-852B-50FE-829E9816EF94</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61BF1298-AFBD-8E0E-F312-E78BD781250B" name="TB_ANO_AGRICOLA_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>EBA547A8-9B1C-121D-3C01-52CEE4D56C41</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0879F55F-FFA8-742A-667B-D0755E209DF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

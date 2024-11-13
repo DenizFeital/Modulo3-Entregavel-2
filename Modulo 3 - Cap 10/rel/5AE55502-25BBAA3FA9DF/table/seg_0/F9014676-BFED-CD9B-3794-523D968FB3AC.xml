@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9014676-BFED-CD9B-3794-523D968FB3AC" name="TB_SERIE_HISTORICA_GRAOS_CAP10">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>D8B4FA62-C71C-57E5-0221-36EE3E1FD649</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nm_area_plantada_mil_ha" id="DFD5B73C-6BAE-ECF8-8DE3-636A7C1DA7BF">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>AB61A747-29B5-0E96-3B3B-5B5E3799C66E</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_ANO_AGR" id="2D05D264-50A3-9AF1-0433-B13D6A3A0993">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>A6B83D45-100B-8A81-9AB4-1815EB17FD0C</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87E308D4-EAF4-6892-DDD1-AF24E1A3759C" referredColumn="0879F55F-FFA8-742A-667B-D0755E209DF2"/>
+</associations>
+</Column>
+<Column name="TB_UF_sigla_UF" id="E40916E6-A9C4-375B-B9F8-858381BD1E22">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>915DC86F-B56C-F782-72D1-C3F88A0EBB87</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BDFF684-F5CD-1032-7030-44B554BCACF8" referredColumn="16FFBFA9-300B-5BFD-D4A2-435EC1A3883C"/>
+</associations>
+</Column>
+<Column name="TB_PRODUTO_id_produto" id="688B554B-1BAD-849C-D407-5894B5818700">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>8789F133-9D3E-657D-5FE7-E1DEC75A6067</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C680D96D-DA06-1EE0-9E8B-91A41704418E" referredColumn="95931E82-3B6F-C2A0-7DAD-5CD5AC7EBA37"/>
+</associations>
+</Column>
+<Column name="nm_producao_mil_t" id="39D73A52-2F06-2517-A358-AF0F5B31A05B">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>060787CA-FF84-CA81-2F3E-3D85C322DE36</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_produtividade_mil_ha_mil_t" id="3A9CCAD6-96A1-E349-BA24-A60E58C25132">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>90BB577A-A595-AF0F-D982-4B3380A2B657</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2117B7DB-3737-9E96-AD88-333F8EFBBB2F" name="TB_SERIE_HISTORICA_GRAOS_PK">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>0C60E83A-C81A-64C0-510F-7F729B101637</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFD5B73C-6BAE-ECF8-8DE3-636A7C1DA7BF"/>
+<colUsage columnID="688B554B-1BAD-849C-D407-5894B5818700"/>
+<colUsage columnID="E40916E6-A9C4-375B-B9F8-858381BD1E22"/>
+<colUsage columnID="2D05D264-50A3-9AF1-0433-B13D6A3A0993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="999A7CCE-3982-DF29-2482-69C57F6540A2" name="FK_SER_HIST_PROD">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>0E711BFB-9E1A-E6ED-37BE-078182DF1A24</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="688B554B-1BAD-849C-D407-5894B5818700"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F559EA1-03C5-946F-49FD-FDED2D23CBB4" name="FK_SER_HIST_GRAOS">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>749EDB47-7B25-0EBA-A131-36F0F82D5236</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E40916E6-A9C4-375B-B9F8-858381BD1E22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D942A805-C44E-78B9-633D-BB82F4DF1A7E" name="FK_SER_HIST_ANO">
+<createdBy>denizf</createdBy>
+<createdTime>2024-11-13 11:00:58 UTC</createdTime>
+<generatorID>53B19FFD-7EF9-B753-B3BF-DACC76E2FBED</generatorID>
+<ownerDesignName>Modulo 3 - Cap 10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D05D264-50A3-9AF1-0433-B13D6A3A0993"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
