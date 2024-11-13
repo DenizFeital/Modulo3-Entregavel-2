@@ -9,3 +9,4 @@ GROUP BY
     TB_PRODUTO_id_produto
 ORDER BY
     AVG(nm_produtividade_mil_ha_mil_t) DESC;
+    
