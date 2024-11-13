@@ -1,6 +1,6 @@
 SELECT
     TB_PRODUTO_id_produto AS "Product ID",
-    AVG(nm_produtividade_mil_ha_mil_t) AS "Average Productivity (Mil Tons per Hectare)"
+    AVG(nm_produtividade_mil_ha_mil_t) AS "Media de produtividade (Mil Tons por Hectare)"
 FROM
     tb_serie_historica_graos_cap10
 WHERE
@@ -9,4 +9,4 @@ GROUP BY
     TB_PRODUTO_id_produto
 ORDER BY
     AVG(nm_produtividade_mil_ha_mil_t) DESC;
-    
+

@@ -1,6 +1,6 @@
 SELECT
     TB_PRODUTO_id_produto AS "Product ID",
-    SUM(nm_producao_mil_t) AS "Total Production (Mil Tons)"
+    SUM(nm_producao_mil_t) AS "Producao Total (Mil Tons)"
 FROM
     tb_serie_historica_graos_cap10
 WHERE
